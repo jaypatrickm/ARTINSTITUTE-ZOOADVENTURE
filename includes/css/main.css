@@ -1,0 +1,379 @@
+@charset "utf-8";
+@import url("reset.css");
+/*  CSS Document for Zoo Adventure */
+/*
+******************************************************************************************************
+
+Title:			main.css - Zoo Adventure
+Browser(s): 	All 
+
+Author: 		Random
+Created: 		05.23.2012
+
+******************************************************************************************************
+*/
+/*
+********************
+* =miscellaneous
+********************
+*/
+body{
+	background:url(../../images/main-bg.jpg) repeat-x scroll 0 0 #366b03;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+a{
+
+}
+
+a:hover{
+
+}
+
+p{
+	margin-bottom:20px;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  margin-left: 30px;
+  list-style:none;
+}
+
+/*------------------------------clearfix--------------------------------*/
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix {display:inline-block;}
+/* Hide from IE Mac \*/
+	.clearfix {display:block;}
+/* End hide from IE Mac */
+
+/*------------------------------CONTENT--------------------------------*/
+
+/*
+********************
+* =container
+********************
+*/
+#container{
+	margin: 0 auto;
+	padding: 30px 20px;
+	width:960px;
+}
+
+/*
+********************
+* =header
+********************
+*/
+header{
+	clear: both;
+}
+
+/*
+********************
+* =logo
+********************
+*/
+#logo{
+	text-indent: -9999px;
+	float: left;
+}
+
+#logo a{
+	float: left;
+	height:181px;
+	width:294px;
+	background: url(../../images/zoo-adventure-logo.png) no-repeat;
+}
+
+/*
+********************
+* =nav
+********************
+*/
+nav{
+	padding-top:45px;
+	padding-bottom:15px;
+	margin-left:300px;
+	float: left;
+}
+
+nav a{
+	text-transform: uppercase;
+	color:black;
+	font:bold 14px Arial,Helvetica,sans-serif;
+}
+
+nav a:hover{
+	color:#00A7E5;
+	padding-bottom: 7px;
+}
+
+nav ul{
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+nav li{
+	margin-left: 40px;
+	display: inline;
+}
+
+/*
+********************
+* =activities
+********************
+*/
+#activities{
+	text-indent: -9999px;
+}
+
+#activities a{
+	float: left;
+	height:92px;
+	width:178px;
+	margin-left:20px;
+	background: url(../../images/activities-nav.png) no-repeat;
+}
+
+/*
+********************
+* =animal-guide
+********************
+*/
+#animal-guide{
+	text-indent: -9999px;
+}
+
+#animal-guide a{
+	float: left;
+	height:83px;
+	width:224px;
+	margin-left:20px;
+	background: url(../../images/animal-guide-nav.png) no-repeat;
+}
+
+/*
+********************
+* =parents-and-teachers
+********************
+*/
+#parents-and-teachers{
+	text-indent: -9999px;
+}
+
+#parents-and-teachers a{
+	float: left;
+	height:98px;
+	width:178px;
+	margin-left:20px;
+	background: url(../../images/parents-teachers-nav.png) no-repeat;
+}
+
+/*
+********************
+* =game
+********************
+*/
+#game{
+	/*margin: 30px 0 0 0;*/
+	margin: 0 auto;
+	clear: both;
+	height:715px;
+	width:943px;
+	background:url(../../story/images/zoo-adventure-start.png) repeat-x scroll 0 0 transparent;
+	background-color:transparent;
+}
+
+/*
+********************
+* =main
+********************
+*/
+#main{
+	margin: 30px 0 0 0;
+	clear: both;
+	width:943px;
+}
+
+#main h1{
+	text-indent: -9999px;
+	margin-bottom:15px;
+}
+
+/*
+********************
+* =activities-header - =animal-game-header =color-header
+********************
+*/
+#activities-header{
+ 	width:943px;
+ 	margin-bottom:30px;
+}
+
+#activities-header h1{
+	width:204px;
+	height:33px;
+	background: url(../../images/activities-header.png) no-repeat;
+}
+
+/*
+********************
+* =animal-game-header
+********************
+*/
+#animal-game-header{
+	float: left;
+	width:445px;
+}
+#animal-game-header h1{
+	width:248px;
+	height:34px;
+	background: url(../../images/animal-game-header.png) no-repeat;
+}
+
+
+/*
+********************
+* =color-header
+********************
+*/
+#color-header{
+	float: left;
+	margin-left:60px;
+	width:434px;
+}
+#color-header h1{
+	width:100px;
+	height:28px;
+	background: url(../../images/color-header.png) no-repeat;
+}
+
+ .color-thumb{
+ 	float: left;
+ 	margin: 20px 12px 12px 0;
+ }
+
+ /*
+********************
+* =animal-guide-header
+********************
+*/
+#animal-guide-header{
+	width:943px;
+ 	margin-bottom:30px;
+}
+#animal-guide-header h1{
+	width:299px;
+	height:40px;
+	background: url(../../images/animal-guide-header.png) no-repeat;
+}
+
+/*
+********************
+* =animal-name-header
+********************
+*/
+#animal-name-header{
+	float: left;
+}
+#animal-name-header h1{
+	width:249px;
+	height:29px;
+	background: url(../../images/animal-name.png) no-repeat;
+}
+
+/*
+********************
+* =parents-and-teachers-header
+********************
+*/
+#parents-and-teachers-header h1{
+	width:423px;
+	height:44px;
+	background: url(../../images/parents-and-teachers-header.png) no-repeat;
+}
+
+/*
+********************
+* =adult-info
+********************
+*/
+
+#adult-info{
+	width:600px;
+}
+	/*
+	********************
+	* =headers in parents and teachers section
+	********************
+	*/
+
+	#how-to-use-header{
+		width:207px;
+		height:32px;
+		background: url(../../images/how-to-use-header.png) no-repeat;
+	}
+
+	#clause-header{
+		width:127px;
+		height:32px;
+		background: url(../../images/clause-header.png) no-repeat;
+	}
+	#resources-header{
+		width:188px;
+		height:26px;
+		background: url(../../images/resources-header.png) no-repeat;
+	}
+/*
+********************
+* =stanley
+********************
+*/
+#stanley-activities-page{
+	margin-top:20px;
+	float: right;
+}
+
+#stanley-parents-page{
+	float: right;
+}
+
+/*
+********************
+* =footer
+********************
+*/
+footer{
+	margin-top:30px;
+}
+
+footer ul{
+	margin-left: 260px;
+}
+
+footer li{
+	margin-left: 10px;
+	display: inline;
+}
+
+footer a{
+	text-transform: lowercase;
+	text-decoration:none;
+	color:#000000;
+	font-size:14px;
+}
+
+footer a:hover{
+	color: #fdd601;
+}

@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/*
+*
+*
+* Hello and welcome to the CSS document for the ZOO ADVENTURE STORY portion.
+* thanks for joining us. I hope you are having a great day.
+*
+*
+*Date: Jun 3
+*Author: Jay
+*Project: Zoo Adventure Story
+*
+* You are awesome! 
+*
+*
+*
+*
+*TOC
+*
+*
+* 
+*Reset
+*/
+a:link, a:visited, a:hover, a:active {
+	text-decoration:none;  
+  }
+
+/*
+*Embed Typeface
+*/
+@font-face {
+	font-family: BigSlabHammer;
+	src: url('../../story/typefaces/bigslabhammer-webfont.ttf');
+}
+
+
+/*
+*Style Start Button
+*/
+#start_button {
+	width: 50px;
+	height: 60px;	
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	left: -10%;
+	font-family: BigSlabHammer;
+	font-size: 50px;
+	color: #fdd601;
+	text-shadow: 2px 2px 7px #111;
+}
+
+#start_button a:link, a:visited, a:hover, a:active {
+	color: #fdd601;
+}
+
+/*
+*Habitat Buttons
+*/
+.h_button {
+	font-family: BigSlabHammer;
+	font-size: 60px;
+	text-shadow: 2px 2px 7px #111;	
+	text-align: justify;
+	float: left;
+	padding: 0px 0px 20px 50px;
+}
+#habitat_buttons {
+	width: 820px;
+	height: 400px;
+	margin: 0 auto;	
+	padding-top: 100px;
+	padding-left: 100px;
+	
+}
+
+#story_lines {
+	width: 660px;
+	height: 180px;
+	position: absolute;
+	top: 700px;
+	border-color: #3d1904;
+	margin: 0 0 0 200px;
+	background-color: #FFF;
+	border-radius: 15px;
+	border: 8px solid #3d1904;
+}
+#story_lines p {
+	padding: 10px;
+	font-size: 36px;
+}
+/*
+*Jungle Habitat
+*/
+#great_job {
+	font-family: BigSlabHammer;
+	font-size: 46px;
+	color:#66FF33;	
+	text-shadow: 2px 2px 7px #111;	
+	position:absolute;
+	margin: 200px 0px 0px 350px;
+	z-index: 1;
+}
+#j_monkey {
+	position: relative;	
+	top: 130px;
+	left: 50px;
+	
+}
+#j_elephant {
+	position: relative; 
+	top: 50px;
+	left: 200px;
+		
+}
+#j_tiger {
+	position: relative; 
+	top: 190px;	
+	left: 260px;
+}
